@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+.segment-container {
+  width: 100%;
+  padding: 0.2rem 0;
+  background-color: black;
+  color: darkgray;
+}
+
+.segment-partition-container {
+  margin: 0.2rem 0;
+  display: flex;
+}
+
+.segment {
+  background-color: darkgray;
+  border-radius: 5px;
+  height: 12px;
+}
+
+.segment-item {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 6px;
+  padding: 0.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-value {
+  font-size: x-small;
+  font-weight: bold;
+  color: white;
+}
